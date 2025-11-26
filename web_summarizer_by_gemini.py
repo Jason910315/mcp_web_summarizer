@@ -13,6 +13,7 @@ import os
 from dotenv import load_dotenv
 import tiktoken
 import google.generativeai as genai
+
 load_dotenv()
 
 gemini_key = os.getenv("GEMINI_API_KEY")
